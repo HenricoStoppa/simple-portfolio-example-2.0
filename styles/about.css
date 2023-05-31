@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191a1b;
+}
+
+header {
+    padding: 2% 0 0 15%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+main {
+    padding: 4.8% 15%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.infos {
+    width: 615px;
+
+    text-align: justify;
+}
+
+#page-title {
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+    color: #F6F6F6;
+
+    margin-bottom: 20px;
+}
+
+.page-paragraph {
+    margin-bottom: 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #F6F6F6;
+}
+
+#user-pic {
+    width: 30vw;
+}
+
+footer {
+    background-color: #22D4FD;
+
+    padding: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #191a1b;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #191a1b;
+    text-decoration: none;
+}

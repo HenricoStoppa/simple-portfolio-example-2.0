@@ -22,7 +22,7 @@ nav {
 nav a {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #22D4FD;
     text-decoration: none;
 }
@@ -38,14 +38,14 @@ main {
 }
 
 .infos {
-    width: 615px;
+    width: 50%;
 
     text-align: justify;
 }
 
 #page-title {
     font-family: 'Krona One', sans-serif;
-    font-size: 30px;
+    font-size: 1.9rem;
     color: #F6F6F6;
 
     margin-bottom: 20px;
@@ -59,7 +59,7 @@ main {
     margin-bottom: 30px;
 
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: .9rem;
     color: #F6F6F6;
 }
 
@@ -73,7 +73,7 @@ main {
 
 h2 {
     font-family: 'Krona One', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #F6F6F6;
 
     margin-bottom: 20px;
@@ -86,7 +86,7 @@ h2 {
 
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: .75rem;
     color: #F6F6F6;
     text-decoration: none;
 
@@ -122,7 +122,7 @@ footer {
     padding: 15px;
 
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: .9rem;
     color: #191a1b;
 
     display: flex;
@@ -134,4 +134,28 @@ footer a {
     font-weight: bold;
     color: #191a1b;
     text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    header {
+        padding: 7%;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    main {
+        padding: 5%;
+
+       flex-direction: column-reverse;
+    }
+
+    .infos {
+        width: auto;
+    }
+
+    .button {
+        width: 70%;
+    }
 }
